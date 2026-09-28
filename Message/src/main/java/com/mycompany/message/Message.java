@@ -58,7 +58,7 @@ import java.util.Random;
             if (checkCellPhoneNumber(phone)) {
                 System.out.println("Cell phone number successfully captured");
             } else {
-                System.out.println("Cell phone number incorrectly formatted or does not contain an international code, please correct the number and try again");
+                System.out.println("Telephone number phone number incorrectly formatted or does not contain an international code, please correct the number and try again");
                 input.close();
                 return;
             }
